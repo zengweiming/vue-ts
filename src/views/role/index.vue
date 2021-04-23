@@ -1,19 +1,13 @@
 <template>
-  <div id="app">
-    <router-view/>
-  </div>
+  <div>Role</div>
 </template>
-
 <script lang="ts">
 import Vue from 'vue'
 export default Vue.extend({
-  data () {
-    return {
-      a: ''
-    }
-  }
+  name: 'Role'
 })
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
+
 </style>

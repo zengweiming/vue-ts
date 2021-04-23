@@ -1,19 +1,13 @@
 <template>
-  <div id="app">
-    <router-view/>
-  </div>
+  <div>Advert</div>
 </template>
-
 <script lang="ts">
 import Vue from 'vue'
 export default Vue.extend({
-  data () {
-    return {
-      a: ''
-    }
-  }
+  name: 'Advert'
 })
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
+
 </style>
